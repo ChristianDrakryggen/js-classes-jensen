@@ -35,5 +35,7 @@ console.log(admin.checkRole());
 console.log(user.checkRole());
 
 class Car {
-  constructor() {}
+  constructor(brand) {
+    this.brand = brand;
+  }
 }
