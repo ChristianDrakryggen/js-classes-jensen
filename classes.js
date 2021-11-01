@@ -39,3 +39,12 @@ class Car {
     this.brand = brand;
   }
 }
+
+class Bike {
+  constructor(model) {
+    this.model = model;
+  }
+  brake() {
+    return "I'm breaking!";
+  }
+}
